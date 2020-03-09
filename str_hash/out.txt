@@ -1,0 +1,36 @@
+Несколько выводов данной программы:
+
+for 1000000 generated strings: 
+ - RSHash has 44306 collisions
+ - JSHash has 44326 collisions
+ - PJWHash has 49073 collisions
+ - ELFHash has 49073 collisions
+ - BKDRHash has 44285 collisions
+ - SDBMHash has 44285 collisions
+ - DJBHash has 44286 collisions
+ - DEKHash has 44987 collisions
+ - APHash has 44326 collisions
+
+for 1000000 generated strings: 
+ - RSHash has 43817 collisions
+ - JSHash has 43820 collisions
+ - PJWHash has 48580 collisions
+ - ELFHash has 48580 collisions
+ - BKDRHash has 43812 collisions
+ - SDBMHash has 43819 collisions
+ - DJBHash has 43805 collisions
+ - DEKHash has 44500 collisions
+ - APHash has 43821 collisions
+
+for 1000000 generated strings: 
+ - RSHash has 44342 collisions
+ - JSHash has 44353 collisions
+ - PJWHash has 49182 collisions
+ - ELFHash has 49182 collisions
+ - BKDRHash has 44330 collisions
+ - SDBMHash has 44337 collisions
+ - DJBHash has 44314 collisions
+ - DEKHash has 45010 collisions
+ - APHash has 44346 collisions
+
+Вывод: особенно плохи (примерно на 10% хуже остальных) PJW и ELF, также выделяется DEK
