@@ -1,0 +1,36 @@
+Для различных значение N были получены наборы данных представленные ниже (в порядке убывания N). На их основе можно сделать вывод, что множество медленнее представленных последовательных контейнеров, а пороговое значение N отсутствует.
+
+for N = 2000000
+set result = 4154 milliseconds
+vector result = 996 milliseconds
+array result = 630 milliseconds
+
+for N = 1000000
+set result = 1911 milliseconds
+vector result = 512 milliseconds
+array result = 320 milliseconds
+
+for N = 100000
+set result = 185 milliseconds
+vector result = 51 milliseconds
+array result = 28 milliseconds
+
+for N = 50000
+set result = 128 milliseconds
+vector result = 23 milliseconds
+array result = 13 milliseconds
+
+for N = 10000
+set result = 27 milliseconds
+vector result = 10 milliseconds
+array result = 5 milliseconds
+
+for N = 5000
+set result = 10 milliseconds
+vector result = 4 milliseconds
+array result = 2 milliseconds
+
+for N = 2000
+set result = 4 milliseconds
+vector result = 1 milliseconds
+array result = 1 milliseconds
