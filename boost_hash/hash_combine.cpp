@@ -43,7 +43,8 @@ void find_collision(int n) {
     int c = 0;
     for (unsigned int i = 0; i < n; ++i) {
         s.insert(hasher(generate_checker()));
-        if (i % 10 == 0) {
+        if (i % 1000 == 0) {
+            std::cout << s.size() << " " << i + 1 << std::endl;
             if (s.size() - 1 != i) {
                 c++;
                 std::cout << "there is " << i + 1 << " elements and " << i + 1 - s.size() << " collisions." << std::endl;
