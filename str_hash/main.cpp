@@ -49,9 +49,6 @@ void test_func(const std::vector <std::pair <char*,
 
 int main() {
 	std::vector <std::pair <char*, unsigned int>> v;
-	int n = 1000000;
-	generate_data(n, v);
-	std::cout << "for " << n << " generated strings: " << std::endl;
 	std::set <unsigned int> s;
 	std::ofstream dat("dat.txt");
 	std::ofstream rs("rs.txt");
